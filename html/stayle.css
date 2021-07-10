@@ -1,0 +1,47 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    font-family: "roboto" , "sans-serif";
+
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ) , url("l.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh ;
+}
+ .logo{
+     width: auto;
+     overflow: auto;
+     color: #fff;
+     letter-spacing: 2px;
+     /* المسافة بين الخطوط  */
+      /* padding: 40px 0px 0px 0px;  */
+      text-indent: 50px;
+      /* دير مسافة قبل الكلام عندي  */
+      line-height: 160%;
+      /* التباعد بين السطور  */
+      word-spacing: 2px;
+      /* التباعد بين الكلامات  */
+      width: 500px ;
+      white-space: nowrap;
+      /*  تخلي الكلام ينزل لوطا مايديرش overload */
+      word-break: break-all;
+
+
+ }
+var{
+    /* display: inline-block; */
+    /* float: right; */
+    
+    /* padding: 0% 10% 0% 50%; */
+}
+ul{
+    width: auto;
+    overflow: auto;
+}
+ul li {
+    display: inline-block;
+}
+
